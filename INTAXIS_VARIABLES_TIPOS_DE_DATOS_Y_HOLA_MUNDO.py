@@ -24,4 +24,51 @@
 
 "Esto es un comentario es el primer comentario del ejercicio"
 "https://www.python.org/"
+"https://retosdeprogramacion.com/roadmap"
+# Este es un comentario de una sola línea
+'''
+Este es un comentario
+de varias líneas en Python
+'''
+# Crear una variable
+edad = 25
+nombre="Alvaro"
 
+# No existe un sistema de constantes como en JavaScrit pero se puede usando las letras en mayusculas ara identificar
+
+# Creacion de Constante
+PI=3.14159
+print(PI)
+
+Radio=5
+print(Radio)
+
+area=PI*(Radio **2)
+print("El area  es: ",area)
+print("------------------------------------------------------------")
+#Numeros enteros
+#tipo INT
+edad =30 
+
+# Punto flotante
+# tipo FLOAT
+altura=15.332
+
+#cadena de texto
+# tipo STR
+nombre2="alvaro"
+
+#Boolaneos
+#bool
+estudiante=True
+
+print("Mi edad es ", edad,"este tipo de varia es", type(edad))
+print("------------------------------------------------------------")
+print("MI altura es",altura,"y el tipo de dato es", type(altura))
+print("------------------------------------------------------------")
+print("Mi nombre es ",nombre2,"el tipo de dato es",type(nombre2))
+print("------------------------------------------------------------")
+print("soy estudiante",estudiante,"el tipo de dato es",type(estudiante))
+
+
+print("¡Hola, Mi nombre es PYTHON!")
